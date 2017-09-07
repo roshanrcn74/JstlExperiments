@@ -35,7 +35,24 @@
                 </tr>
                                   
             </c:forEach>
+  
+         </table> 
+        
+         <table border="4">
                 
+                <h2> Item Table </h2>    
+                <c:forEach var="i" begin="1" end="5" >
+                <tr>
+                    <td>
+                        Apple ${i}
+                    </td>
+                    <td>
+                        Orange ${i}
+                    </td>
+                </tr>
+                                  
+            </c:forEach>    
+   
         </table>
         
 
