@@ -18,29 +18,10 @@
         <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
     </head>
     <body>
-        <h1> Table for Header Values</h1>
-        <table border="3">
-            <tr>
-                <td> Header </td>
-                <td> Value </td>
-            </tr>
-            <c:forEach var="headerValue" items="${header}" >
-                <tr>
-                    <td>
-                        ${headerValue.key}
-                    </td>
-                    <td>
-                        ${headerValue.value}
-                    </td>
-                </tr>
-                                  
-            </c:forEach>
-  
-         </table> 
+        
+        <h2> Item Table </h2>  
         
          <table border="4">
-                
-                <h2> Item Table </h2>    
                 <c:forEach var="i" begin="1" end="5" >
                 <tr>
                     <td>
