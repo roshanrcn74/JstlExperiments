@@ -19,7 +19,8 @@
     </head>
     <body>
         
-        <h2> Item Table </h2>  
+        <c:set var="name" value="Fruits"></c:set>
+        <c:out value="${name}"/>
         
          <table border="4">
                 <c:forEach var="i" begin="1" end="5" >
